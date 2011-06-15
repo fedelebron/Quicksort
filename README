@@ -1,3 +1,5 @@
 A tiny quicksort implementation.
 
 Uses the middle element as a pivot, and works in-place.
+
+median_quicksort is a slightly more clever implementation, as it uses the median of the middle, first and last elements for pivoting. Nonetheless, there exist median-of-three killer datasets. A randomized implementation would be better when inputs are both unknown and can be malicious.
