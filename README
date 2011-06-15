@@ -1,0 +1,3 @@
+A tiny quicksort implementation.
+
+Uses the middle element as a pivot, and works in-place.
